@@ -1,0 +1,55 @@
+
+/* Element based selection */
+/* h1{
+    background-color: blueviolet;
+}
+
+h2{
+    background-color: rgb(199, 199, 225);
+}
+
+p{
+    color: rgba(165, 42, 42, 0.996);
+} */
+/* ===================================== */
+
+
+/* Id based selection */
+
+/* *{
+    background-color: rgb(192, 175, 183);
+}
+#first{
+    background-color: blueviolet;
+}
+
+#secand{
+    background-color: rgb(199, 199, 225);
+}
+#third{
+    background-color: lightgray;
+}
+#fourth{
+    background-color: lightgreen;
+} */
+/* ===================================== */
+
+
+/* class based selection */
+
+/* .p1{
+    background-color: aquamarine;
+} */
+
+
+/* Group based seletion */
+
+h1,h2, .p1{
+    background-color: aquamarine;
+}
+
+
+
+
+
+

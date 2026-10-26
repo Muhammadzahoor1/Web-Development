@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    width: 150%;
+    height: 100%;
+    border: solid 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.container{
+    width: 50%;
+    height: 10%;
+    border: solid 5px black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#image img{
+    width: 10%;
+    height: 5%;
+   
+}
+
+#content p{
+    width: 90%;
+    height: 100%;
+}
+
+

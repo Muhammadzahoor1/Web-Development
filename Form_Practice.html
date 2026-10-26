@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <form action="submit.html" method = "get">
+        <label >Name: </label> <br>
+        <input type="text" required name="name" placeholder="Enter your name "> <br> <br>
+        <label >Email: </label>
+        <input type="email" required  placeholder="Enter your email"> <br> <br>
+        <label for="password">Password: </label> <br>
+        <input type="password" placeholder="Enter your passward" id="password" required> <br> <br>
+        <label for="birthdate">Birth Date: </label> <br>
+        <input type="date" id="birthdate" required> <br> <br>
+        <!-- --------------------------------- -->
+
+        <label >HTML</label> 
+        <input type="checkbox">
+<br>
+        <label >CSS</label> 
+        <input type="checkbox">
+<br>
+        <label >JavaScript</label> 
+        <input type="checkbox"> <br> <b> </b> <br>
+<!-- ----------------------------------------------- -->
+ 
+        <input type="radio" value = "F" name="gender" id="female">
+        <label for="female">Female</label> <br>
+
+        <input type="radio" value = "M" name="gender" id="Male">
+        <label for="female">Male</label> <br>  <br>
+
+<!-- ************************************************* -->
+
+        <input type="submit" value="  Submitt   ">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
